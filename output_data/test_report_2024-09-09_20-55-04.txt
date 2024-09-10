@@ -1,0 +1,29 @@
+Test Report - 2024-09-09 20:55:04
+Prompts Used:
+Separate Addresses Prompt: You will be provided with a set of addresses that may not be separated correctly. Your task is to carefully separate each address into its own string, paying attention to where each address ends. You must ensure that the address is complete and each part of the address (e.g. Name, Street, Postcode) is separated with a comma. Pay attention to spelling (e.g. names) and make sure to get it exactly right. Output each address as a separate string, and ensure no additional text is included in the output.
+Format Addresses Prompt: Format the following address components into the JSON schema with FirstName, LastName, StreetName, Town, Postcode, and Country fields. Pay attention to spelling (e.g. names) and make sure to get it exactly right.
+================================================================================
+5_bad_formatting.csv: PASS
+2_one_per_row.csv: PASS
+4_white_spaces.csv: PASS
+3_in_columns.csv: PASS
+6_extra_symbols.csv: PASS
+7_extra_line_breaks.csv: PASS
+8_mixed_cases.csv: PASS
+9_no_spaces.csv: FAILED - 13 differences found
+10_single_cell.csv: PASS
+11_bullets.csv: PASS
+12_mixed_delimiters.csv: FAILED - 2 differences found
+17_hr_info.csv: PASS
+13_extra_date_time.csv: PASS
+16_extra_spacing.csv: PASS
+20_salary_info.csv: PASS
+18_personal_data.csv: PASS
+19_employee_info.csv: PASS
+14_mixed_formats.csv: PASS
+15_multiple_rows.csv: PASS
+1_unecessary_information.csv: PASS================================================================================
+Total files tested: 20
+Total passes: 18
+Total failures: 2
+================================================================================

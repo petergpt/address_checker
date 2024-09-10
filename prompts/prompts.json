@@ -1,0 +1,12 @@
+{
+  "separate_addresses": {
+    "v1": "You will be provided with a set of addresses that may not be separated correctly. Your task is to carefully separate each address into its own string, paying attention to where each address ends. You must ensure that the address is complete and each part of the address (e.g. Name, Street, Postcode) is separated with a comma. Pay attention to spelling (e.g. names) and the correctness of postcodes, make sure to get it exactly correct. Output each address as a separate string, and ensure no additional text is included in the output.",
+    "v2": "xxx",
+    "v3": "xxx"
+  },
+  "format_addresses": {
+    "v1": "Format the following address components into the JSON schema with FirstName, LastName, StreetName, Town, Postcode, and Country fields. Pay attention to spelling (e.g. names) and make sure to get it exactly right.",
+    "v2": "xxx",
+    "v3": "xxx"
+  }
+}

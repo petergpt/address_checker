@@ -1,0 +1,262 @@
+[
+    {
+        "processed_address": {
+            "FirstName": "Laura",
+            "LastName": "Martinez",
+            "StreetName": "36 Bridge Street",
+            "Town": "Sheffield",
+            "Postcode": "S10 2QR",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Laura",
+            "LastName": "Martinez",
+            "StreetName": "36 Bridge Street",
+            "Town": "Sheffield",
+            "Postcode": "S1 0QR",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "S10 2QR",
+                "expected_value": "S1 0QR"
+            }
+        ],
+        "match_score": 96.625
+    },
+    {
+        "processed_address": {
+            "FirstName": "Thomas",
+            "LastName": "Rodriguez",
+            "StreetName": "14 Market Square",
+            "Town": "Leeds",
+            "Postcode": "LS19 9OP",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Thomas",
+            "LastName": "Rodriguez",
+            "StreetName": "14 Market Square",
+            "Town": "Leeds",
+            "Postcode": "LS1 9OP",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "LS19 9OP",
+                "expected_value": "LS1 9OP"
+            }
+        ],
+        "match_score": 97.0
+    },
+    {
+        "processed_address": {
+            "FirstName": "Michael",
+            "LastName": "Brown",
+            "StreetName": "78 Victoria Avenue",
+            "Town": "Glasgow",
+            "Postcode": "G15 6GH",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Michael",
+            "LastName": "Brown",
+            "StreetName": "78 Victoria Avenue",
+            "Town": "Glasgow",
+            "Postcode": "G1 5GH",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "G15 6GH",
+                "expected_value": "G1 5GH"
+            }
+        ],
+        "match_score": 96.625
+    },
+    {
+        "processed_address": {
+            "FirstName": "Sarah",
+            "LastName": "Davis",
+            "StreetName": "90 Kingsway",
+            "Town": "Edinburgh",
+            "Postcode": "EH16 5IJ",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Sarah",
+            "LastName": "Davis",
+            "StreetName": "90 Kingsway",
+            "Town": "Edinburgh",
+            "Postcode": "EH1 6IJ",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "EH16 5IJ",
+                "expected_value": "EH1 6IJ"
+            }
+        ],
+        "match_score": 97.0
+    },
+    {
+        "processed_address": {
+            "FirstName": "David",
+            "LastName": "Johnson",
+            "StreetName": "34 Church Road",
+            "Town": "Birmingham",
+            "Postcode": "B13 6CD",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "David",
+            "LastName": "Johnson",
+            "StreetName": "34 Church Road",
+            "Town": "Birmingham",
+            "Postcode": "B1 3CD",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "B13 6CD",
+                "expected_value": "B1 3CD"
+            }
+        ],
+        "match_score": 96.625
+    },
+    {
+        "processed_address": {
+            "FirstName": "Henry",
+            "LastName": "Moore",
+            "StreetName": "82 Duke Street",
+            "Town": "Southampton",
+            "Postcode": "SO13 1WX",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Henry",
+            "LastName": "Moore",
+            "StreetName": "82 Duke Street",
+            "Town": "Southampton",
+            "Postcode": "SO1 3WX",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "SO13 1WX",
+                "expected_value": "SO1 3WX"
+            }
+        ],
+        "match_score": 97.0
+    },
+    {
+        "processed_address": {
+            "FirstName": "Emily",
+            "LastName": "Williams",
+            "StreetName": "56 Station Road",
+            "Town": "Bristol",
+            "Postcode": "BS14 6EF",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Emily",
+            "LastName": "Williams",
+            "StreetName": "56 Station Road",
+            "Town": "Bristol",
+            "Postcode": "BS1 4EF",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "BS14 6EF",
+                "expected_value": "BS1 4EF"
+            }
+        ],
+        "match_score": 97.0
+    },
+    {
+        "processed_address": {
+            "FirstName": "Jessica",
+            "LastName": "Miller",
+            "StreetName": "22 Elm Street",
+            "Town": "Cardiff",
+            "Postcode": "CF18 1MN",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Jessica",
+            "LastName": "Miller",
+            "StreetName": "22 Elm Street",
+            "Town": "Cardiff",
+            "Postcode": "CF1 8MN",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "CF18 1MN",
+                "expected_value": "CF1 8MN"
+            }
+        ],
+        "match_score": 97.0
+    },
+    {
+        "processed_address": {
+            "FirstName": "Robert",
+            "LastName": "Jones",
+            "StreetName": "10 Oak Street",
+            "Town": "Liverpool",
+            "Postcode": "L17 7KL",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Robert",
+            "LastName": "Jones",
+            "StreetName": "10 Oak Street",
+            "Town": "Liverpool",
+            "Postcode": "L1 7KL",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "L17 7KL",
+                "expected_value": "L1 7KL"
+            }
+        ],
+        "match_score": 96.625
+    },
+    {
+        "processed_address": {
+            "FirstName": "Samuel",
+            "LastName": "King",
+            "StreetName": "202 Hillview Road",
+            "Town": "Aberdeen",
+            "Postcode": "AB13 1QR",
+            "Country": "GB"
+        },
+        "ground_truth": {
+            "FirstName": "Samuel",
+            "LastName": "King",
+            "StreetName": "202 Hillview Road",
+            "Town": "Aberdeen",
+            "Postcode": "AB1 3QR",
+            "Country": "GB"
+        },
+        "differences": [
+            {
+                "field": "Postcode",
+                "processed_value": "AB13 1QR",
+                "expected_value": "AB1 3QR"
+            }
+        ],
+        "match_score": 97.0
+    }
+]
